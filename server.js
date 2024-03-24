@@ -14,7 +14,9 @@ const STEAM_API = process.env.STEAM_API || 'https://api.steampowered.com/ISteamU
 const API_KEY = process.env.API_KEY || '';
 const DEBUG = process.env.DEBUG || false;
 
-app.use(exp.static('public'));
+app.get('/', (req, res) => {
+    res.send('Hello from Node.js!');
+});
 
 /*
 app.get('/', async function (req, res) {
