@@ -1,4 +1,4 @@
-import { overlay1store } from "@/stores/overlay1";
+import { overlay1store } from "public/src/stores/overlay1";
 
 const store = overlay1store();
 
