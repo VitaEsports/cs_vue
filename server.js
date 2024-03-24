@@ -1,4 +1,5 @@
-const app = require('express')();
+const exp = require('express')
+const app = exp();
 const express = require('http').createServer(app);
 var serveStatic = require('serve-static');
 var path = require('path');
@@ -13,7 +14,9 @@ const STEAM_API = process.env.STEAM_API || 'https://api.steampowered.com/ISteamU
 const API_KEY = process.env.API_KEY || '';
 const DEBUG = process.env.DEBUG || false;
 
+app.use(exp.static('public'));
 
+/*
 app.get('/', async function (req, res) {
     if (URL === undefined || URL === null || URL === '') {
         res.sendFile(__dirname +'/public/index.html');
@@ -23,7 +26,7 @@ app.get('/', async function (req, res) {
     res.set('Content-Type', 'text/html');
     res.send(Buffer.from(addImports(response)));
 });
-
+*/
 app.post('/', function(req, res) {
     res.writeHead(200, {
         'Content-Type': 'text/html'
