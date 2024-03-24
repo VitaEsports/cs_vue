@@ -1,7 +1,7 @@
 const app = require('express')();
 const express = require('http').createServer(app);
 const io = require('socket.io')(express);
-import fetch from 'node-fetch';
+const fetch = require('node-fetch');
 
 const PORT = process.env.PORT || 3000;
 const URL = process.env.CONTENT_URL || '';
