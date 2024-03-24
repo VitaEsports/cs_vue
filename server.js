@@ -2,7 +2,6 @@ const app = require('express')();
 const express = require('http').createServer(app);
 const io = require('socket.io')(express);
 import fetch from 'node-fetch';
-import { isNotOk } from "assert";
 
 const PORT = process.env.PORT || 3000;
 const URL = process.env.CONTENT_URL || '';
@@ -89,11 +88,11 @@ function addImports(body) {
 
 async function getUrlContent(uri) {
     const response = await fetch(uri).catch(err => {
-        isNotOk(err, 'Promise error');
+        //isNotOk(err, 'Promise error');
         done();
     });
     let body = await response.text().catch(err => {
-        isNotOk(err, 'Promise error');
+        //isNotOk(err, 'Promise error');
         done();
     });
     return body;
