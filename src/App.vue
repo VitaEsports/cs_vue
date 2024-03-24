@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import PlayerMainArea from './components/overlay1/player/PlayerMainArea.vue'
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
+      <PlayerMainArea />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
