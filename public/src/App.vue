@@ -85,3 +85,4 @@ nav a:first-of-type {
   }
 }
 </style>
+./util/overlay1/overlay1/player/PlayerMainArea.vue
