@@ -1,8 +1,8 @@
 const app = require('express')();
 const express = require('http').createServer(app);
 const io = require('socket.io')(express);
-const fetch = require('node-fetch');
-const {isNotOk} = require("assert");
+import fetch from 'node-fetch';
+import { isNotOk } from "assert";
 
 const PORT = process.env.PORT || 3000;
 const URL = process.env.CONTENT_URL || '';
