@@ -1,0 +1,49 @@
+### text ###
+*.DS_STORE
+*.target/
+*.HELP.md
+*.local
+
+### Backend ###
+
+
+### Frontend ###
+*.local
+**/package-lock.json
+
+
+### Logs ###
+logs
+*.log*
+*.log
+
+
+### IntelliJ IDEA ###
+*.idea
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+**/.vscode
+.vscode/*
+!.vscode/extensions.json
+
+### other ##
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+*.tsbuildinfo
+
+node_modules
+dist
+dist-ssr
+coverage
+
+/cypress/videos/
+/cypress/screenshots/
+
