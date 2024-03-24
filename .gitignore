@@ -1,0 +1,36 @@
+### text ###
+*.DS_STORE
+*.target/
+*.HELP.md
+*.local
+
+### Backend ###
+
+
+### Frontend ###
+*.local
+/frontend/modulecrediting/package-lock.json
+
+
+### Logs ###
+*.log*
+*.log
+
+
+### IntelliJ IDEA ###
+*.idea
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+**/.vscode
+!frontend/**/.vscode
+
+
+### other ##
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
