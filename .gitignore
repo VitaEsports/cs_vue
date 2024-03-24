@@ -9,7 +9,7 @@
 
 ### Frontend ###
 *.local
-/frontend/modulecrediting/package-lock.json
+**/package-lock.json
 
 
 ### Logs ###
@@ -25,7 +25,6 @@
 
 ### VS Code ###
 **/.vscode
-!frontend/**/.vscode
 
 
 ### other ##
