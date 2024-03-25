@@ -1,3 +1,24 @@
+# Commands
+client folder: 
+
+    npm install (first time)
+    npm run dev
+
+server folder:
+
+    npm install (first time)
+    npm start
+
+
+
+
+
+
+
+
+
+# OLD README
+
 # client
 
 This template should help get you started developing with Vue 3 in Vite.
