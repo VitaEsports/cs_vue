@@ -18,6 +18,11 @@ const router = createRouter({
       path: '/overlay1',
       name: 'overlay1',
       component: () => import('../views/Overlay1View.vue')
+    },
+    {
+      path: '/overlaykonfigurator',
+      name: 'overlaykonfigurator',
+      component: () => import('../views/OverlayKonfigurator.vue')
     }
   ]
 })
