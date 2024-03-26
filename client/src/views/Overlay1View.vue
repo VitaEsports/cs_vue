@@ -1,7 +1,7 @@
 <script setup>
-import PlayerMain from './components/overlay1/player/PlayerMain.vue'
-import CurrentPlayerMain from './components/overlay1/CurrentPlayer/CurrentPlayerMain.vue'
-import ScoreMain from './components/overlay1/scoreboard/ScoreMain.vue'
+import PlayerMain from '../components/overlay1/player/PlayerMain.vue'
+import CurrentPlayerMain from '../components/overlay1/currentPlayer/CurrentPlayerMain.vue'
+import ScoreMain from '../components/overlay1/scoreboard/ScoreMain.vue'
 </script>
 
 <template>
@@ -185,35 +185,35 @@ import ScoreMain from './components/overlay1/scoreboard/ScoreMain.vue'
 
 @font-face {
   font-family: 'Poppins';
-  src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
+  src: url('../assets/fonts/Poppins-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Poppins';
-  src: url('./assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+  src: url('../assets/fonts/Poppins-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Poppins';
-  src: url('./assets/fonts/Inter-ExtraBold.ttf') format('truetype');
+  src: url('../assets/fonts/Inter-ExtraBold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Inter';
-  src: url('./assets/fonts/Inter-ExtraBold.ttf') format('truetype'), url('./assets/fonts/Inter-Bold.ttf') format('truetype');
+  src: url('../assets/fonts/Inter-ExtraBold.ttf') format('truetype'), url('../assets/fonts/Inter-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Inter';
-  src: url('./assets/fonts/Inter-Regular.ttf') format('truetype');
+  src: url('../assets/fonts/Inter-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
